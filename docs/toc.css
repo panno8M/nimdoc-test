@@ -1,4 +1,4 @@
-.container .row {
+#content {
   display: grid;
   grid-template-columns: 25% 75%;
   height: 100vh;
@@ -13,7 +13,7 @@
   padding-right: 1rem;
 }
 
-.container .row > :not(#markdown-toc) {
+#content > :not(#markdown-toc) {
   grid-column: 2;
   overflow-y: auto;
   padding-left: 1rem;
