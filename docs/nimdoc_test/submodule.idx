@@ -1,0 +1,2 @@
+nimTitle	submodule	nimdoc_test/submodule.html	module src/nimdoc_test/submodule		0
+nim	getWelcomeMessage	nimdoc_test/submodule.html#getWelcomeMessage	proc getWelcomeMessage(): string		6
