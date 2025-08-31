@@ -7,6 +7,6 @@
 
 import unittest
 
-import nimdoc_test
-test "can add":
-  check add(5, 5) == 10
+import nimdoc_test/submodule
+test "correct welcome":
+  check getWelcomeMessage() == "Hello, World!"

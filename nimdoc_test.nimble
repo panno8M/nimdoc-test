@@ -5,6 +5,8 @@ author        = "Anonymous"
 description   = "A new awesome nimble package"
 license       = "MIT"
 srcDir        = "src"
+installExt    = @["nim"]
+bin           = @["nimdoc_test"]
 
 
 # Dependencies
