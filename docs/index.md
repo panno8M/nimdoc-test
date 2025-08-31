@@ -4,13 +4,15 @@ title: Home
 ---
 
 <div class="three columns">
-{:toc}
+
+  {:toc}
+
 </div>
 
 <div class="nine columns" id="content">
 
-# Project Documentation
+  # Project Documentation
 
-Welcome to the project docs. Use the sidebar to navigate.
+  Welcome to the project docs. Use the sidebar to navigate.
 
 </div>
