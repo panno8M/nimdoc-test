@@ -2,7 +2,7 @@
 (function () {
   function moveToc() {
     const toc = document.querySelector('#markdown-toc');
-    if (!toc || toc.children.length === 0) return; // TOCが無ければ終了
+    if (!toc || toc.children.length === 0) return;
 
     const left = document.querySelector('.three.columns');
     if (!left) return;
