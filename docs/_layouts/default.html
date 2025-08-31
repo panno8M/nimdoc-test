@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/docs/nimdoc_test/nimdoc.out.css">
+</head>
+<body>
+  <div class="container">
+    <div class="three columns">
+      {% include sidebar.html %}
+    </div>
+
+    <div class="nine columns">
+      {{ content }}
+    </div>
+  </div>
+</body>
+</html>
