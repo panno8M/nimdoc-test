@@ -3,6 +3,11 @@ layout: default
 title: nimdoc-test wiki
 ---
 
+<div class="three columns">
+{:toc}
+</div>
+
+<div class="nine columns" id="content">
 
 # H1
 
@@ -28,3 +33,5 @@ p
 
 p
 p
+
+</div>
