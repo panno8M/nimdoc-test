@@ -3,6 +3,9 @@ layout: default
 title: nimdoc-test wiki
 ---
 
+* TOC
+{:toc}
+
 # H1
 
 ## H2

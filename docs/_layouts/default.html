@@ -3,6 +3,7 @@
   PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-theme="auto">
+
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,12 +26,21 @@
   <script type="text/javascript" src="{{ site.baseurl }}/dochack.js?v=2.2.4"></script>
   <script src="{{ site.baseurl }}/toc-sidebar.js"></script>
 </head>
+
 <body>
   <div class="document" id="documentId">
     <div class="container">
       <h1 class="title">{{ page.title }}</h1>
       <div class="row">
         <div class="three columns">
+          <div class="theme-select-wrapper">
+            <label for="theme-select">Theme:&nbsp;</label>
+            <select id="theme-select" onchange="setTheme(this.value)">
+              <option value="auto">🌗 Match OS</option>
+              <option value="dark">🌑 Dark</option>
+              <option value="light">🌕 Light</option>
+            </select>
+          </div>
         </div>
 
         <div class="nine columns" id="content">
@@ -43,4 +53,5 @@
     </div>
   </div>
 </body>
+
 </html>
