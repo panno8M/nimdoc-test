@@ -1,6 +1,20 @@
-#markdown-toc {
-  padding: 0;
-  margin: 0 0 1em 0;
+.container .row {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  height: 100vh;
   list-style: none;
   font-size: 0.9em;
+}
+
+#markdown-toc {
+  grid-column: 1;
+  overflow-y: auto;
+  border-right: 1px solid #ccc;
+  padding-right: 1rem;
+}
+
+.container .row > :not(#markdown-toc) {
+  grid-column: 2;
+  overflow-y: auto;
+  padding-left: 1rem;
 }
