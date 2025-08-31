@@ -20,17 +20,20 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/nimdoc.out.css?v=2.2.4">
-  <link rel="stylesheet" href="{{ site.baseurl }}/toc.css">
 
   <!-- JS -->
   <script type="text/javascript" src="{{ site.baseurl }}/dochack.js?v=2.2.4"></script>
+  <script src="{{ site.baseurl }}/toc-sidebar.js"></script>
 </head>
 <body>
   <div class="document" id="documentId">
     <div class="container">
       <h1 class="title">{{ page.title }}</h1>
       <div class="row">
-        <div id="content">
+        <div class="three columns">
+        </div>
+
+        <div class="nine columns" id="content">
           {{ content }}
         </div>
       </div>
